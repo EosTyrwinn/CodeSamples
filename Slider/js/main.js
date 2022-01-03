@@ -742,7 +742,7 @@ function collisionCheck()
     if(time <= 0){
         for(let i = 0; i < noStops.length; i++)
         {
-            //kill player if they hit spikes
+            //kill player if they stop in a no stopping zone
             if(player.collides(noStops[i]))
             {
                 console.log("noStop");

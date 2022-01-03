@@ -89,8 +89,7 @@ export function loadMarkers(jsonString){
         let url = GEODATA_URL + API_KEY;
         //Search for the location in the API
         url += "&location=" + name;
-
-        
+  
          function makeFeature(e){
             let jsonLoc = JSON.parse(e);
 

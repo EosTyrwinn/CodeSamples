@@ -11,6 +11,7 @@ This project displays georgraphic information about the number of speakers of di
 This project was a game that was simlar to the game snake but with physics and gravity involved so you were constantly falling back to the bottom of the screen.
 - Language: C++
 - Sample: Collision between the player and their goal
+- Link: No live version
 
 ### Phyllotaxis
 Phyllotaxis refers to the spiral arrangement of leaves on a plant. Here I was using graphics to let you play around with the different factors in the arrangement of those spirals to create cool images.

@@ -1,0 +1,53 @@
+body{
+    background-color: #d7dce0;
+}
+
+canvas {
+    border: 1px solid black;
+    float: left;
+    background-color: white;
+}
+
+#controls{
+    float: left;
+    margin-left: 1em;
+    padding: 1em;
+    border: 1px solid black;
+    background-color: white;
+}
+
+hr{
+    border-top: 1px dashed grey;
+}
+
+#resetDiv{
+    text-align: center;
+    margin-top: 1.5em;
+}
+
+#divNum, #spaceNum, #dotNum{
+    display: inline;
+    padding-right: 1em;
+}
+
+#divControl, #dotSpace, #dotSize{
+    float: right;
+}
+
+h1, h2{
+    font-family: 'Lora', serif;
+}
+
+h1 {
+    font-size: 1.7em;
+    text-align: center;
+}
+
+h2{
+    font-size: 1.2em;
+    margin-top: 1%;;
+}
+
+p, select{
+    font-family: 'Muli', sans-serif;
+}

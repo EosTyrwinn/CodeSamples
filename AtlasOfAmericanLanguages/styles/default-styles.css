@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.minor {
+    background-image: url('../images/icon-minor.png');
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.midling {
+    background-image: url('../images/icon-midling.png');
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.medium {
+    background-image: url('../images/icon-medium.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.major {
+    background-image: url('../images/icon-major.png');
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.mapboxgl-popup {
+    max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#controls {
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 20px;
+    width: 250px;
+    height: 120px;
+    background-color: lightskyblue;
+    border: 1px solid black;
+    height: auto;
+    text-align: center;
+    padding: 0.5em;
+    padding-bottom: 1em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#controls select {
+    font-size: 1em;
+    width: 60%;
+}
+
+#controls h1 {
+    font-size: 1.7em;
+    font-family: 'Comfortaa', cursive;
+}
+
+#notice {
+    font-size: 12px;
+}
+
+#pageLoading {
+    font-size: 16px;
+    padding-top: 0;
+    margin-top: 0;
+    font-family: 'Jost', sans-serif;
+}
+
+#pageStatus {
+    font-size: 14px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-family: 'Comfortaa', cursive;
+}

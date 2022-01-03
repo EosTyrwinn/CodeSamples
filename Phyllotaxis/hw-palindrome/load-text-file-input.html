@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Load Text - &lt;file></title>
+	<style>
+		body{font-family:sans-serif;}
+	</style>
+</head>
+<body>
+<h1>Load Text - <code>&lt;file></code></h1>
+<section>
+	<input type="file" id="fileChooser">
+	<p id="output"></p>
+</section>
+<script>
+let output = document.querySelector("#output");
+document.querySelector("#fileChooser").onchange = doChange;
+
+
+function doChange(e){
+	let file = e.target.files[0]; // we are only allowing 1 file to be chosen
+	let reader = new FileReader();
+	reader.onload = dataLoaded;
+	reader.readAsText(file);
+}
+
+function dataLoaded(e){
+	let s = e.target.result;
+	output.innerHTML = s;
+}
+
+</script>
+</body>
+</html>

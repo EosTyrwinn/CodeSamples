@@ -1,0 +1,36 @@
+Alex Herman
+Project 1
+Documentation
+
+How it meets the requirements:
+	Overall Theme/Impact
+		- The app is a lot of fun to screw around with and I wasted way to much time messing around with all the controls
+		- The multiple origin points is uniqie and even more fun to mess with
+	User Experience
+		- The app is clear and self explanitory
+		- No errors are thrown
+		- Multiple controls of varying types are availible
+		- Appearance is not ugly (I wish I could make it look good but I can't even make myself look good)
+	Media
+		- CSS passes validation
+		- The only thing in the HTML that doesn't validate is the link from google fonts for custom fonts which I can't really control
+		- Imbedded font exists (see above)
+		- Canvas is used along with the save and restore features for every circle drawn
+		- All CSS is external
+	Code
+		- all-code-files-named-like-this
+		- JS coding standards are followed (I wouldn't be able to look at my own code otherwise)
+		- Custom library is there with helper functions in it
+		
+What went right/wrong
+	Most stuff went pretty well. My main issues came in trying to reference the radio buttons as a whole but I eventually figured it out.
+	I also encountered issues with my reset function but most of that stemed from the fact that I couldn't get it in the library because I can't
+	pass by reference in JS.
+	
+Non-course resources
+	- None
+	
+Grade:
+	- ~85%
+	- I feel like my project isn't anything special. It's cool to play with and fun for a bit. It's something I could
+	put in a portfolio but it just doesn't feel amazing to me.

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Multiple Flower Phyllotaxis</title>
+    <link rel="stylesheet" type="text/css" href="styles/index.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lora|Muli&display=swap" rel="stylesheet">
+    <script src="src/index.js"></script>
+    <script src="src/ajhLIB.js"></script>
+
+</head>
+
+<body>
+    <h1>Multiple Flower Phyllotaxis</h1>
+    <canvas id="canvas" width="900" height="900"></canvas>
+    <br>
+    <div id="controls">
+        <h2>Color Mode:</h2>
+        <p>
+            <input type="radio" name="colorMode" value="rgb1" checked /> Circles <br>
+            <input type="radio" name="colorMode" value="rgb2" /> Spiral <br>
+            <input type="radio" name="colorMode" value="hls1" /> Rainbow <br>
+            <input type="radio" name="colorMode" value="hls2" /> Rainbow Rings <br>
+            <input type="radio" name="colorMode" value="black" /> Black
+        </p>
+        <hr>
+
+        <h2>Divergence:</h1>
+        <p id="divNum"></p>
+        <input type="range" name="divergence" id="divControl" min="0.5" max="179.5" step="1" value="137.5" />
+
+        <hr>
+
+        <h2>Dot Spacing:</h2>
+        <p id="spaceNum"></p>
+        <input type="range" name="dotSpace" id="dotSpace" min="1" max="20" step="0.5" value="5" />
+
+        <hr>
+
+        <h2>Dot Size:</h2>
+        <p id="dotNum"></p>
+        <input type="range" name="dotSize" id="dotSize" min="1" max="10" step="1" value="4" />
+
+        <hr>
+
+        <h2>Number of spirals:</h2>
+        <select name="num" id="num">
+            <option value="1" selected>1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+        </select>
+
+        <hr>
+
+        <h2>Speed:</h2>
+        <select name="speed" id="speed">
+            <option value="30">Very Slow</option>
+            <option value="60">Slow</option>
+            <option value="120" selected>Medium</option>
+            <option value="180">Fast</option>
+            <option value="240">Very Fast</option>
+            <option value="2000">Unlimited Speed</option>
+        </select>
+
+        <div id="resetDiv">
+            <button type="button" id="reset">Reset</button>
+        </div>
+    </div>
+</body>
+
+</html>
